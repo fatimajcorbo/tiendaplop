@@ -7,18 +7,20 @@ header, nav, main, section, footer {
 
 h1, h2, h3, h4, h5, h6, ul, li, p {
 	margin-top:0;
-	margin-bottom:0;
+	/*margin-bottom:0;*/
 }
 h1, h2, h3, h4, h5, h6, p {
-	margin-bottom:15px;
+	margin: bottom 30rem;;
 	text-decoration:none;
 }
-
+#historia{
+	display: block;
+}
 h5{
 	color:#999;
 	font-size:11px;
-	margin-top:10px;
-	margin-bottom:30px;
+	margin: top 20rem;;
+	margin: bottom 30rem;;
 }
 span{
 	font-weight:bold;	
@@ -168,26 +170,122 @@ height: 90px;
 	overflow:hidden;
 	margin:0 auto;
 }
-#actualidadt {
+#blog_img {
 	width:282px;
 	height:213px;
 	margin-right:20px;
 	float:left;
 }
-#style {
+#servicios_img {
 	width:282px;
 	height:213px;
 	margin-top:20px;
 	float:left;
 }
-#productos {
+#productos_img {
 	width:337px;
 	height:451px;
 	float:right;
 }
+
+
+#video {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+    margin: 20px 0; /
+}
+
+#videohome {
+    position: relative;
+    width: 100%; /* Ocupa el 100% del ancho disponible de su padre */
+    max-width: 660px; /* Limita el ancho máximo para videos estándar */
+    
+    /* Mantener la relación de aspecto 16:9 (altura / ancho * 100) */
+    padding-bottom: 20.25%; /* Esto crea el espacio para el iframe responsivo */
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px; 
+}
+
+#videohome iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: none; 
+    border-radius: 3px; 
+	box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+}
+
+.resenias{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 2rem;
+    place-items: center;
+    padding: 1rem;
+}
+
+.card {
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    color: #6F8191;
+    position: relative;
+    margin-top: 4rem;
+    width: 15rem;
+    padding: 2rem 1rem 0;
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 10px 10px #b40e9e;
+    transition: transform 0.3s ease-out;
+}
+
+.card:hover {
+    transform: translateY(-10px)
+}
+
+.card img {
+    position: absolute;
+    top: -2rem;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 20px;
+}
+
+.card-content {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.card-nombre {
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.card .fa-solid {
+    color: rgb(255, 217, 0);
+}
+
+.card-fecha {
+    font-size: 0.6rem;
+}
+
+.card-content p {
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
 /*home*/
 
-/* Actualidad*/
+/* Blog*/
 
 #actualidad {
 	overflow:hidden;
@@ -298,11 +396,11 @@ height: 90px;
 
 
 
-/* Actualidad*/
+/* Blog*/
 
 
 
-/*Style*/
+/*Servicios*/
 #estilo {
 	width:660px;
 	margin-bottom:40px;
@@ -315,10 +413,10 @@ height: 90px;
 
 }
 
-/*Style*/
+/*Servicios*/
 
 
-/*productos*/
+/*Productos*/
 #galeria {
 	width: 660px;
 	margin:0 auto;
@@ -328,12 +426,7 @@ height: 90px;
 	margin-right:20px;
 	margin-bottom:20px;
 }
-#contenedor_carrousel {
-	width:1024px;
-	height:768px;
-	margin:0 auto;
-	overflow:hidden;
-}
+
 #boton_cerrar a img {
 	width:50px;
 	border:none;
@@ -358,13 +451,7 @@ height: 90px;
 	overflow:hidden;
 	border:none;
 }
-.fotos_carrousel {
-	border:#353743 solid 4px;
-	width:454px;
-	height:454px;
-	margin-left:300px;
-	margin-top:125px;
-}
+
 /*productos*/
 
 
