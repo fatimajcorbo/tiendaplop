@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
 
   <title>Plop! - Home</title>
   <link href="estilos.css" rel="stylesheet" type="text/css" />
-  
+
 </head>
+
 <body>
   <header id="header"> <!----------------------------- header -------------------------->
     <div id="contenedor">
@@ -25,16 +27,16 @@
     </div> <!---contenedor-->
   </header> <!----------------------------- header -------------------------------------->
 
-  <main id="contenido">
-    <!----------------------- banner ------------>
+  <main id="contenido"> <!----------------------- home ------------------------------------->  
+    <!----------------------- banner ---------------->
     <img id="frase" src="img/frase1.png" alt="I advocate glamour. Every day. Every minute." />
     <div class="separador"></div>
-
-     <!----------------------- informacion ------------>
+    
+    <!----------------------- informacion ------------>
     <section id="informacion" aria-label="Sección principal de información">
-      <section id="home"> <!-- home -->
+      <section id="home">
         <a href="blog/index.html">
-          <img src="img/foto_horoscopo_bn.jpg" alt="actualidad" id="actualidadt" />
+          <img src="img/foto_horoscopo_bn.jpg" alt="blog" id="blog_img" />
         </a>
         <a href="productos/index.html">
           <img src="img/foto_cuerpo_bn.jpg" alt="productos" id="productos" />
@@ -42,22 +44,39 @@
         <a href="servicios/index.html">
           <img src="img/foto_style_bn.jpg" alt="Style" id="style" />
         </a>
-      </section><!-- home -->
+      </section>
 
     </section>
-  </main>
 
- <footer> <!----------------------------- footer ------------------------------------------>
-  <div id="clearfooter"></div>
+    <section> <!------------video-------------------------->
+       <div id="videohome">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/SlEE2_017jE?si=4nEXJjFUYvS0p7U6"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </section><!------------video-------------------------->
+
+
+   
+  </main> <!----------------------- home ------------------------------------->  
+
+
+
+
+
+  <footer> <!----------------------------- footer ------------------------------------------>
+    <div id="clearfooter"></div>
     <div id="pie">
-    <p>Copyright 2025 CRONOS SA - página ficticia <br />
-    Sitio realizado por Fátima Jimena Corbo</p>
+      <p>Copyright 2025 CRONOS SA - página ficticia <br />
+        Sitio realizado por Fátima Jimena Corbo</p>
     </div>
   </footer><!----------------------------- footer ------------------------------------------->
 
 
   <!------------------------------------------------ script ---------------------------------->
-   <script type="text/javascript" src="funciones.js"></script> 
+  <script type="text/javascript" src="funciones.js"></script>
 
 </body>
+
 </html>
