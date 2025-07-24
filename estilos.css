@@ -1,0 +1,512 @@
+@charset "UTF-8";
+/* CSS Document */
+
+header, nav, main, section, footer {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6, ul, li, p {
+	margin-top:0;
+	margin-bottom:0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-bottom:15px;
+	text-decoration:none;
+}
+
+h5{
+	color:#999;
+	font-size:11px;
+	margin-top:10px;
+	margin-bottom:30px;
+}
+span{
+	font-weight:bold;	
+}
+
+
+
+
+
+
+html, body {
+	margin:0;
+	padding:0;
+	height: 100%; 
+}
+body {
+	background:#F0F0E5 url(img/background.png);
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:12px;
+	color:#000;
+}
+#header {
+	background:url(img/header.png);
+	height:56px;
+	position:relative;
+}
+#logo {
+	background:url(img/logo.png);
+	width:92px;
+	height:90px;
+	bottom:50px;
+	margin-left:50px;
+	float:left;
+}
+#logo h1 a {
+	display:block;
+	width:92px;
+	height:90px;
+}
+#logo h1 a:hover {
+	background:url(img/logo_over.png);
+}
+#logo h1 a span {
+	display:none;
+}
+#contenedor {
+	width:960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#menu ul {
+	list-style-type:none;
+	margin-left:0;
+	padding-left:0;
+	color:#FFF;
+	height:30px;
+	margin-top:20px;
+	margin-left:160px;
+}
+#menu ul li {
+	float:left;
+	margin-left:10px;
+	margin-right:10px;
+}
+#menu ul li a {
+	display:block;
+	text-decoration:none;
+	font-size:14px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	line-height:15px;
+	text-align:center;
+	text-transform:uppercase;
+	color:#FFF;
+}
+#menu ul li a:hover {
+	text-decoration:underline;
+}
+#menu a.seccion_activa {
+	text-decoration:underline;
+}
+#menu a.seccion_inactiva {
+	text-decoration:none;
+}
+#contenido {
+	width:960px;
+	margin:0 auto;
+	min-height: 100%;
+    margin-bottom:-90px;
+	position: relative;
+	overflow:hidden;
+	
+} 
+#frase {
+	width:353px;
+	margin:0 auto;
+	margin-left:300px;
+	margin-top:50px;
+	margin-bottom:25px;
+}
+.separador {
+	border-top:#353743 dashed 1px;
+	margin-bottom:50px;
+}
+#informacion {
+	margin-left:50px;
+	margin-right:50px;
+	overflow:hidden;
+}
+#informacion img {
+	border:#353743 solid 4px;
+}
+#pie {
+	background:url(img/pie.png);
+	height: 90px;
+}
+#pie p {
+	margin:0 auto;
+	text-align:center;
+	color:#FFF;
+	font-style:italic;
+	padding-top:42px;
+}
+#pie p a {
+	color:#BF3265;
+	text-decoration:none;
+}
+#pie p a:hover {
+	color:#BF3265;
+	text-decoration:underline;
+}
+#pie a.seccion_activa {
+	text-decoration:underline;
+}
+#pie a.seccion_inactiva {
+	text-decoration:none;
+}
+
+#clearfooter{
+height: 90px;
+   clear: both;
+}
+
+/*1 home*/
+#home {
+	width:660px;
+	overflow:hidden;
+	margin:0 auto;
+}
+#actualidadt {
+	width:282px;
+	height:213px;
+	margin-right:20px;
+	float:left;
+}
+#style {
+	width:282px;
+	height:213px;
+	margin-top:20px;
+	float:left;
+}
+#productos {
+	width:337px;
+	height:451px;
+	float:right;
+}
+/*home*/
+
+/* Actualidad*/
+
+#actualidad {
+	overflow:hidden;
+	width:660px;
+	margin:0 auto;
+}
+
+#actualidad a {
+	text-decoration:none;
+	color:#000;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+
+#actualidad a:hover {
+	text-decoration:underline;
+}
+
+#actualidad p{
+	color:#353743;
+	margin-top:10px;
+}
+
+#conjunto_noti1{
+	height:670px;
+	overflow:hidden;
+
+}
+
+#conjunto_noti1 div {
+	overflow:hidden;
+	width:200px;
+	margin-right:20px;
+	margin-bottom:20px;
+}
+
+
+#conjunto_noti1 img {
+	margin-bottom:20px;
+}
+
+
+#noticia1{
+	float:left;
+	overflow:hidden;
+}
+
+#noticia2{
+	float:left;
+	overflow:hidden;
+}
+
+#noticia4{
+	position:absolute;
+	float:left;
+	overflow:hidden;
+}
+
+#noticia5{
+	position:absolute;
+	float:left;
+	right:370px;
+	overflow:hidden;
+}
+
+#noticia6{
+	position:absolute;
+	float:left;
+	right:150px;
+	overflow:hidden;
+}
+
+
+
+					/*2 Actualidad noticias*/
+					.titulosh3{
+					margin-top:50px;
+					}
+					.p_ultimo{
+						margin-bottom:20px;
+					}
+					.p_primero{
+						margin-top:200px;
+					}
+					
+					.noticias_todas {
+					width:660px;
+					margin:0 auto;
+					overflow:hidden;
+					color:#353743;
+					}
+
+					.noticias_todas img{
+					float:left; 
+					margin-right:15px;
+					margin-bottom:20px;
+					}
+					
+					.noticias_todas div{
+					margin-bottom:20px;
+					}
+					
+					
+					/*2 Actualidad noticias*/
+
+
+
+
+
+/* Actualidad*/
+
+
+
+/*Style*/
+#estilo {
+	width:660px;
+	margin-bottom:40px;
+	overflow:hidden;
+	margin:0 auto;
+}
+
+#estilo img{
+	margin-right:20px;
+
+}
+
+/*Style*/
+
+
+/*productos*/
+#galeria {
+	width: 660px;
+	margin:0 auto;
+	overflow:hidden;
+}
+#galeria img {
+	margin-right:20px;
+	margin-bottom:20px;
+}
+#contenedor_carrousel {
+	width:1024px;
+	height:768px;
+	margin:0 auto;
+	overflow:hidden;
+}
+#boton_cerrar a img {
+	width:50px;
+	border:none;
+	float:right;
+	margin:20px;
+}
+#boton_atras a img {
+	width:65px;
+	float:left;
+	overflow:hidden;
+	position:relative;
+	bottom:265px;
+	left:100px;
+	border:none;
+}
+#boton_sig a img {
+	width:65px;
+	float:right;
+	position:relative;
+	bottom:445px;
+	right:100px;
+	overflow:hidden;
+	border:none;
+}
+.fotos_carrousel {
+	border:#353743 solid 4px;
+	width:454px;
+	height:454px;
+	margin-left:300px;
+	margin-top:125px;
+}
+/*productos*/
+
+
+/*contacto*/
+#contacto {
+	width:680px;
+	overflow:hidden;
+	margin:0 auto;
+	color:#353743;
+	overflow:hidden;
+}
+#informacion #contacto #titulo_contacto {
+	border:#FFF;
+	text-decoration:none;
+	margin-bottom:20px;
+}
+#contacto form {
+	width:680px;
+	margin-top:20px;
+	font-size:14px;
+	font-weight:bold;
+	overflow:hidden;
+}
+#contacto_nombre label {
+	display:block;
+	float:left;
+	width:60px;
+	line-height:30px;
+	margin-right:10px;
+}
+#contacto_nombre input {
+	width:200px;
+	height:28px;
+	border:2px solid #353743;
+}
+#label_sexo {
+	display:block;
+	float:left;
+	width:60px;
+	line-height:30px;
+	margin-right: 10px;
+}
+#femenino {
+	width:65px;
+	float:left;
+}
+#contacto_sexo #femenino label {
+	line-height:30px;
+}
+#contacto_sexo #femenino imput {
+	line-height:30px;
+	margin-right:30px;
+}
+#contacto_sexo #masculino label {
+	line-height:30px;
+}
+#contacto_sexo #masculino imput {
+	line-height:30px;
+}
+#contacto_mail label {
+	display:block;
+	float:left;
+	width:60px;
+	line-height:30px;
+	margin-right: 10px;
+}
+#contacto_mail input {
+	width:200px;
+	height:28px;
+	border:2px solid #353743;
+}
+#contacto_news label {
+	display:block;
+	float:left;
+	width:180px;
+	line-height:30px;
+	margin-right: 10px;
+}
+#contacto_news input {
+	width:20px;
+	height:28px;
+	float:left;
+}
+#contacto_consulta {
+	width:360px;
+	float:right;
+	overflow:hidden;
+	margin-bottom:20px;
+}
+#contacto_nombre {
+	float:left;
+	width:200px;
+	margin-bottom:20px;
+}
+#contacto_sexo {
+	width:200px;
+	float:left;
+	margin-bottom:20px;
+}
+#contacto_mail {
+	width:200px;
+	float:left;
+	margin-bottom:20px;
+}
+#submit {
+	width:65px;
+	margin-left:320px;
+}
+#submit input {
+	width:60px;
+	overflow:hidden;
+	background:#353743;
+	color:#FFF;
+	border:none;
+	padding-top:5px;
+	padding-bottom:5px;
+	display:block;
+}
+#contacto_consulta label {
+	margin-bottom:5px;
+	padding-top:4px;
+	display:block;
+	float:left;
+	width:60px;
+	line-height:20px;
+}
+#contacto_consulta textarea {
+	width:350px;
+	margin-bottom:10px;
+	height:230px;
+	border:2px solid #353743;
+	font-size:16px;
+	overflow:hidden;
+}
+
+#contacto p{
+	margin-top:20px;
+
+}
+/*contacto*/
+
+
+p{
+	line-height:20px;
+}
