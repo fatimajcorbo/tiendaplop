@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+
+<title>Plop! - Contacto</title>
+<link href="../estilos.css" rel="stylesheet" type="text/css"/>
+
+</head>
+
+<body>
+
+<header id="header"> <!----------------------------- header -------------------------->
+    <div id="contenedor">
+      <div id="logo">
+        <h1><a href="../index.html"><span>Plop!</span></a></h1>
+      </div>
+      <nav id="menu" role="navigation" aria-label="Menú principal">
+        <ul>
+          <li><a href="../index.html" class="seccion_inactiva">Home</a></li>
+          <li><a href="../productos/index.html" class="seccion_inactiva">Productos</a></li>
+          <li><a href="../servicios/index.html" class="seccion_inactiva">Servicios</a></li>
+          <li><a href="../blog/index.html" class="seccion_inactiva">Blog</a></li>
+          <li><a href="../contacto/index.html" class="seccion_activa">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header> <!----------------------------- header -------------------------->
+
+<div id="contenido">
+<img id="frase" src="../img/frase1.png" alt="I advocate glamour. Every day. Every minute."/>
+<div class="separador"></div>
+
+<div id="informacion">
+
+<div id="contacto">
+<img id="titulo_contacto" src="img/titulo_contacto.png" alt="Contactate con nosotros"/>
+<img src="img/foto_contacto.jpg" alt="Collage Pin-up"/>
+
+<form action="sub_index.html" method="post" enctype="text/plain" onsubmit="MM_validateForm('nombre','','R','e-mail','','RisEmail','consulta','','R');return document.MM_returnValue">
+        
+        <div id="contacto_consulta">
+          <label for="consulta">Consulta:</label><br/><br/>
+          <textarea cols="" rows="" name="consulta" id="consulta"></textarea>
+        </div>
+        
+        <div id="contacto_nombre">
+          <label for="nombre">Nombre:</label><br/><br/>
+          <input type="text" name="nombre" id="nombre"/>
+        </div>
+      
+        <div id="contacto_mail">
+          <label for="e-mail">E-mail:</label><br/><br/>
+          <input type="text" name="e-mail" id="e-mail"/>
+        </div>
+        
+         
+        <div id="contacto_sexo">
+          <label id="label_sexo">Género:</label><br/><br/>
+          
+          <div id="femenino"><label for="f">F</label>
+          <input type="radio" name="sexo" id="f" value="f"/>
+          </div>
+          
+          <div id="masculino"><label for="m">M</label>
+          <input type="radio" name="sexo" id="m" value="m"/></div>
+          
+        </div>
+        
+        <div id="contacto_news">
+          <label for="news">Suscribite al Newsletter</label>
+          <input type="checkbox" name="news" id="news"/>
+        </div>
+        <div id="submit">
+        <input type="submit" name="enviar" value="Enviar" id="enviar"/>
+        </div>
+      </form>
+
+</div>
+</div>
+</div>
+
+<footer> <!----------------------------- footer ------------------------------------------>
+  <div id="clearfooter"></div>
+    <div id="pie">
+    <p>Copyright 2025 CRONOS SA - página ficticia <br />
+    Sitio realizado por Fátima Jimena Corbo</p>
+    </div>
+</footer><!----------------------------- footer ------------------------------------------->
+
+<!------------------------------------------- script ---------------------------------------->
+<script type="text/javascript" src="../funciones.js"></script> 
+
+</body>
+</html>
