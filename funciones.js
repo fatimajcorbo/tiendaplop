@@ -115,21 +115,21 @@ switch(num){
 const productos = [
     {
         id: "01",
-        imagen: "img/ACEITE-DE-PEPITAS-DE-UVA.jpg",
-        alt: "Foto de un envase de crema",
-        nombre: "Aceite de semillas de uva",
-        precio: 5000
+        imagen: "productos/img/ropa1_ch.jpg",
+        alt: "Foto de un corset",
+        nombre: "Corset Eva",
+        precio: 50000
     },
     {
         id: "02",
-        imagen: "img/CREMA-HIDRATANTE-CON-EXTRACTO-DE-UVA.jpg",
-        nombre: "Crema hidratante",
-        precio: 7000
+        imagen: "productos/img/ropa1_ch.jpg",
+        nombre: "Corset Isa",
+        precio: 53000
     },
     {
         id: "03",
-        imagen: "img/EXFOLIANTE-DE-SEMILLAS-DE-UVA.webp",
-        nombre: "Exfoliante de semillas de uva",
+        imagen: "productos/img/ropa1_ch.jpg",
+        nombre: "Corset Mora",
         precio: 4000
     },    
 ];
